@@ -54,6 +54,8 @@ body.is-leaving .page-transition { opacity: 1; }
 .card-kicker { color: var(--orange); font-size: .8rem; font-weight: 700; }
 .info-card h2 { margin: 42px 0 10px; font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.5rem, 2.5vw, 2.3rem); letter-spacing: -.04em; }
 .info-card p { max-width: 25ch; margin: 0; color: var(--muted); }
+.inline-link { color: var(--ink); border-bottom: 1px solid var(--orange); }
+.inline-link:hover { color: var(--orange); }
 .banner-section { margin-top: 112px; }
 .section-heading--compact { margin: 0 0 32px; }
 .section-heading--compact .section-title { max-width: 13ch; margin: 14px 0 0; }
