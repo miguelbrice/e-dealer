@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style-1.css">
+    <link rel="stylesheet" href="style.css?v=20260904">
+    <link rel="stylesheet" href="style-1.css?v=20260904">
 </head>
 <body data-page="servicos" data-title="MIGUELBRICE | Serviços">
     <div class="page-transition" aria-hidden="true"></div>
@@ -29,22 +29,23 @@
             </a>
 
             <nav class="site-nav" aria-label="Navegação principal">
-                <a href="index.html" data-nav-link>Início</a>
-                <a href="eufacoorcamento.html" data-nav-link>Serviços</a>
-                <a href="contato.html" data-nav-link>Contato</a>
+                <a href="index.html" data-nav-link data-i18n="navHome">Início</a>
+                <a href="eufacoorcamento.html" data-nav-link data-i18n="navServices">Serviços</a>
+                <a href="contato.html" data-nav-link data-i18n="navContact">Contato</a>
             </nav>
+            <label class="language-picker"><span class="sr-only">Idioma</span><select data-language aria-label="Selecionar idioma"><option value="pt">PT</option><option value="en">EN</option><option value="es">ES</option><option value="zh">中文</option><option value="ru">RU</option><option value="de">DE</option><option value="fr">FR</option><option value="it">IT</option><option value="ar">عربي</option></select></label>
         </header>
 
         <section class="section-heading">
-            <span class="eyebrow">MIGUELBRICE / Services</span>
-            <h1 class="section-title">Aprenda o próximo passo.</h1>
+            <span class="eyebrow" data-i18n="servicesEyebrow">MIGUELBRICE / Services</span>
+            <h1 class="section-title" data-i18n="servicesTitle">Aprenda o próximo passo.</h1>
         </section>
 
         <section class="service-grid">
             <article class="service-card glass-panel">
                 <span class="service-index">01 / front-end</span>
-                <h3>Introduction for front-end</h3>
-                <p>Primeiro contato prático com interfaces e fundamentos da web.</p>
+                <h3 data-i18n="frontendTitle">Introduction for front-end</h3>
+                <p data-i18n="frontendDesc">Primeiro contato prático com interfaces e fundamentos da web.</p>
                 <ul>
                     <li>25 min – 30 min</li>
                     <li>Valor: $5</li>
@@ -53,8 +54,8 @@
 
             <article class="service-card glass-panel">
                 <span class="service-index">02 / back-end</span>
-                <h3>Introduction for back-end</h3>
-                <p>Visão inicial sobre lógica, servidores e o que acontece por trás da interface.</p>
+                <h3 data-i18n="backendTitle">Introduction for back-end</h3>
+                <p data-i18n="backendDesc">Visão inicial sobre lógica, servidores e o que acontece por trás da interface.</p>
                 <ul>
                     <li>30 min – 55 min</li>
                     <li>Valor: $39,93</li>
@@ -63,8 +64,8 @@
 
             <article class="service-card glass-panel">
                 <span class="service-index">03 / security</span>
-                <h3>Introduction for cybersecurity</h3>
-                <p>Introdução aos fundamentos de segurança digital e proteção de sistemas.</p>
+                <h3 data-i18n="cyberTitle">Introduction for cybersecurity</h3>
+                <p data-i18n="cyberDesc">Introdução aos fundamentos de segurança digital e proteção de sistemas.</p>
                 <ul>
                     <li>10 min – 25 min</li>
                     <li>Valor: $53,33</li>
@@ -73,9 +74,9 @@
 
             <article class="service-card glass-panel">
                 <span class="service-index">04 / contacto</span>
-                <h3>Agende uma introdução</h3>
-                <p>Escolha um tema e converse diretamente com MIGUELBRICE.</p>
-                <a class="button button--primary" href="contato.html" data-nav-link>Falar comigo ↗</a>
+                <h3 data-i18n="bookTitle">Agende uma introdução</h3>
+                <p data-i18n="bookDesc">Escolha um tema e converse diretamente com MIGUELBRICE.</p>
+                <a class="button button--primary" href="contato.html" data-nav-link data-i18n="bookCta">Falar comigo ↗</a>
             </article>
         </section>
     </main>

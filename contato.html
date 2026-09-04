@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style-1.css">
+    <link rel="stylesheet" href="style.css?v=20260904">
+    <link rel="stylesheet" href="style-1.css?v=20260904">
 </head>
 <body data-page="contato" data-title="MIGUELBRICE | Contato">
     <div class="page-transition" aria-hidden="true"></div>
@@ -29,22 +29,23 @@
             </a>
 
             <nav class="site-nav" aria-label="Navegação principal">
-                <a href="index.html" data-nav-link>Início</a>
-                <a href="eufacoorcamento.html" data-nav-link>Serviços</a>
-                <a href="contato.html" data-nav-link>Contato</a>
+                <a href="index.html" data-nav-link data-i18n="navHome">Início</a>
+                <a href="eufacoorcamento.html" data-nav-link data-i18n="navServices">Serviços</a>
+                <a href="contato.html" data-nav-link data-i18n="navContact">Contato</a>
             </nav>
+            <label class="language-picker"><span class="sr-only">Idioma</span><select data-language aria-label="Selecionar idioma"><option value="pt">PT</option><option value="en">EN</option><option value="es">ES</option><option value="zh">中文</option><option value="ru">RU</option><option value="de">DE</option><option value="fr">FR</option><option value="it">IT</option><option value="ar">عربي</option></select></label>
         </header>
 
         <section class="section-heading">
-            <span class="eyebrow">Contato</span>
-            <h1 class="section-title">Vamos falar</h1>
-            <p>Se a ideia for conversar sobre vaga, trabalho ou parceria, estes são os canais diretos.</p>
+            <span class="eyebrow" data-i18n="contactEyebrow">Contato</span>
+            <h1 class="section-title" data-i18n="contactTitle">Vamos falar</h1>
+            <p data-i18n="contactIntro">Se a ideia for conversar sobre vaga, trabalho ou parceria, estes são os canais diretos.</p>
         </section>
 
         <section class="contact-grid">
             <article class="contact-card contact-card--highlight glass-panel">
-                <span class="contact-label">Contato direto</span>
-                <h2>Informações principais</h2>
+                <span class="contact-label" data-i18n="directContact">Contato direto</span>
+                <h2 data-i18n="mainInfo">Informações principais</h2>
 
                 <ul class="contact-list">
                     <li>
@@ -83,10 +84,10 @@
             </article>
 
             <article class="contact-card glass-panel">
-                <span class="contact-label">Ação rápida</span>
-                <h2>Copiar tudo de uma vez</h2>
-                <p>Útil para enviar o contato em uma conversa, sem precisar abrir cada canal manualmente.</p>
-                <button class="copy-button" type="button" data-copy-contact>Copiar contato</button>
+                <span class="contact-label" data-i18n="quickAction">Ação rápida</span>
+                <h2 data-i18n="copyTitle">Copiar tudo de uma vez</h2>
+                <p data-i18n="copyDesc">Útil para enviar o contato em uma conversa, sem precisar abrir cada canal manualmente.</p>
+                <button class="copy-button" type="button" data-copy-contact data-i18n="copyButton">Copiar contato</button>
 
                 <div class="contact-pills">
                     <a class="contact-pill" href="mailto:miguelbrice@gmail.com">Email</a>
