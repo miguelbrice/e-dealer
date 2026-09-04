@@ -3,84 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#08101f">
-    <meta name="description" content="miguelbrice, 24 anos, procurando vaga de emprego, com atuação em audiovisual, full stack, design gráfico e tráfego AD.">
-    <title>miguelbrice | Início</title>
+    <meta name="theme-color" content="#f1ede5">
+    <meta name="description" content="E-Branding Business por miguelbrice: identidade, conteúdo e presença digital.">
+    <title>E-Branding Business | miguelbrice</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-1.css">
 </head>
-<body data-page="inicio" data-title="miguelbrice | Início">
+<body data-page="inicio" data-title="E-Branding Business | miguelbrice">
     <div class="page-transition" aria-hidden="true"></div>
-    <div class="scene scene--aurora" aria-hidden="true"></div>
-    <div class="scene scene--grid" aria-hidden="true"></div>
     <div class="scene scene--noise" aria-hidden="true"></div>
 
     <main class="page-shell">
-        <header class="site-header glass-panel">
+        <header class="site-header">
             <a class="brand" href="index.html" data-nav-link>
                 <span class="brand-mark">MB</span>
                 <span class="brand-copy">
                     <strong>miguelbrice</strong>
-                    <span>Open to work</span>
+                    <span>E-Branding Business</span>
                 </span>
             </a>
 
             <nav class="site-nav" aria-label="Navegação principal">
-                <a href="index.html" data-nav-link>Início</a>
+                <a href="#metodo">Método</a>
                 <a href="eufacoorcamento.html" data-nav-link>Serviços</a>
-                <a href="procuroemprego.html" data-nav-link>Procuro emprego</a>
                 <a href="contato.html" data-nav-link>Contato</a>
             </nav>
+
+            <label class="language-picker">
+                <span class="sr-only">Idioma</span>
+                <select data-language aria-label="Selecionar idioma">
+                    <option value="pt">PT</option>
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                    <option value="zh">中文</option>
+                    <option value="ru">RU</option>
+                    <option value="de">DE</option>
+                    <option value="fr">FR</option>
+                    <option value="it">IT</option>
+                    <option value="ar">عربي</option>
+                </select>
+            </label>
         </header>
 
-        <section class="hero-grid">
-            <article class="hero-copy glass-panel">
-                <span class="eyebrow">Olá, meu nome é Miguel</span>
-                <h1>Tenho 24 anos, procuro vaga de emprego, faço diária e programo.</h1>
-                <p class="hero-text">
-                    Estou montando presença digital com foco em comunicação clara, execução consistente e identidade visual forte, sem promessas vazias e sem tabela de preços.
-                </p>
+        <section class="hero-grid hero-grid--landing">
+            <article class="hero-copy">
+                <span class="eyebrow" data-i18n="eyebrow">E-Branding Business / 01</span>
+                <h1 data-i18n="heroTitle">Marca boa não pede licença. Ocupa espaço.</h1>
+                <p class="hero-text" data-i18n="heroText">Estratégia, design e conteúdo para transformar presença digital em negócio.</p>
 
                 <div class="hero-actions">
-                    <a class="button button--primary" href="contato.html" data-nav-link>Falar comigo</a>
-                    <a class="button button--ghost" href="eufacoorcamento.html" data-nav-link>Ver serviços</a>
+                    <a class="button button--primary" href="contato.html" data-nav-link><span data-i18n="start">Começar conversa</span> <span aria-hidden="true">↗</span></a>
+                    <a class="text-link" href="eufacoorcamento.html" data-nav-link data-i18n="servicesLink">Ver o que faço</a>
                 </div>
-
-                <ul class="meta-list" aria-label="Resumo rápido">
-                    <li>Tubarão, Santa Catarina</li>
-                    <li>Disponível para oportunidades</li>
-                    <li>Foco em web, criação e campanha</li>
-                </ul>
             </article>
 
-            <aside class="hero-aside glass-panel">
-                <div class="avatar-card">
-                    <div class="pixel-avatar" data-pixel-avatar aria-hidden="true"></div>
-                    <div>
-                        <p class="avatar-label">Caricatura pixel</p>
-                        <p class="avatar-note">Animação leve, visual marcante e responsivo para GitHub Pages.</p>
-                    </div>
-                </div>
-
-                <div class="stat-grid">
-                    <article class="stat-card">
-                        <strong>24</strong>
-                        <span>anos</span>
-                    </article>
-                </div>
+            <aside class="hero-visual" aria-label="Miguel trabalhando com um notebook">
+                <img src="Cross-legged with laptop.jpeg" alt="Ilustração pixel art de uma pessoa trabalhando com notebook">
+                <span class="visual-stamp">BRAND<br>IN MOTION</span>
             </aside>
         </section>
 
-        <section class="info-grid">
-            <article class="info-card glass-panel">
-                <span class="card-kicker">Direção</span>
-                <h2>O que eu entrego</h2>
-                <p>Uma presença direta, com linguagem limpa e um layout que funciona bem em desktop, celular e SmartTV.</p>
-            </article>
+        <section class="intro-strip" id="metodo">
+            <span class="section-number" data-i18n="methodLabel">02 / método</span>
+            <p data-i18n="methodText">Clareza para posicionar. Forma para marcar. Sistema para crescer.</p>
+            <a class="text-link" href="https://www.instagram.com/miguelbrice/" target="_blank" rel="noreferrer">@miguelbrice no Instagram ↗</a>
+        </section>
 
+        <section class="info-grid">
+            <article class="info-card">
+                <span class="card-kicker">01</span>
+                <h2 data-i18n="identityTitle">Identidade</h2>
+                <p data-i18n="identityText">Direção visual e verbal para a marca ser reconhecida.</p>
+            </article>
+            <article class="info-card">
+                <span class="card-kicker">02</span>
+                <h2 data-i18n="contentTitle">Conteúdo</h2>
+                <p data-i18n="contentText">Peças que conversam com pessoas e movimentam canais.</p>
+            </article>
+            <article class="info-card">
+                <span class="card-kicker">03</span>
+                <h2 data-i18n="presenceTitle">Presença</h2>
+                <p data-i18n="presenceText">Web, social e campanhas funcionando como um só sistema.</p>
+            </article>
+        </section>
+
+        <section class="banner-section" id="banners">
+            <div class="section-heading section-heading--compact">
+                <span class="section-number" data-i18n="bannerLabel">03 / formatos</span>
+                <h2 class="section-title" data-i18n="bannerTitle">Banners que entram em movimento.</h2>
+            </div>
+            <div class="banner-board">
+                <a class="ad-banner ad-banner--leaderboard" href="contato.html" data-nav-link aria-label="Banner 728 por 90">
+                    <span class="ad-orbit" aria-hidden="true"></span>
+                    <span class="ad-copy"><small>E-BRANDING BUSINESS</small><strong data-i18n="adHeadline">Sua marca em movimento.</strong><em data-i18n="adCta">Comece agora ↗</em></span>
+                    <span class="ad-size">728 × 90</span>
+                </a>
+                <a class="ad-banner ad-banner--mobile" href="contato.html" data-nav-link aria-label="Banner 320 por 100">
+                    <span class="ad-orbit" aria-hidden="true"></span>
+                    <span class="ad-copy"><small>MB / BRAND</small><strong data-i18n="adHeadline">Sua marca em movimento.</strong><em data-i18n="adCta">Comece agora ↗</em></span>
+                    <span class="ad-size">320 × 100</span>
+                </a>
+                <div class="banner-pair">
+                    <a class="ad-banner ad-banner--square" href="contato.html" data-nav-link aria-label="Banner 250 por 250">
+                        <span class="ad-orbit" aria-hidden="true"></span>
+                        <span class="ad-copy"><small>E-BRANDING</small><strong data-i18n="adShort">Marca com presença.</strong><em data-i18n="adCta">Comece agora ↗</em></span>
+                        <span class="ad-size">250 × 250</span>
+                    </a>
+                    <a class="ad-banner ad-banner--skyscraper" href="contato.html" data-nav-link aria-label="Banner 120 por 600">
+                        <span class="ad-orbit" aria-hidden="true"></span>
+                        <span class="ad-copy"><small>MB</small><strong data-i18n="adShort">Marca com presença.</strong><em data-i18n="adCta">Comece agora ↗</em></span>
+                        <span class="ad-size">120 × 600</span>
+                    </a>
+                </div>
+            </div>
         </section>
     </main>
 
