@@ -1,16 +1,18 @@
-# miguelbrice | Landing para GitHub Pages
+# MIGUELBRICE | Landing para GitHub Pages
 
-Landing page estática, em português do Brasil, pronta para publicar no GitHub Pages sem backend e sem build step.
+Landing page estática multilingüe, lista para publicar en GitHub Pages sin backend ni build step.
 
 ## Conteúdo
 
-- `index.html`: apresentação principal com perfil, estado profissional e navegação
-- `eufacoorcamento.html`: serviços em audiovisual, full stack, designer gráfico e tráfego AD
-- `procuroemprego.html`: foco na busca por vaga de emprego
-- `contato.html`: email, telefone, Instagram, LinkedIn e localização
-- `router.js`: transição animada entre páginas
-- `script.js`: avatar pixelado, copiar contato e interações visuais
-- `style.css` e `style-1.css`: base visual, layout e animações
+- `index.html`: landing principal y presentación de la marca
+- `services.html`: sesiones de introducción en front-end, back-end y cybersecurity
+- `work.html`: página de oportunidades profesionales
+- `contact.html`: canales directos, perfiles y proyectos
+- `assets/css/main.css`: sistema visual, layout y responsive
+- `assets/css/components.css`: componentes complementarios
+- `assets/js/router.js`: transición animada entre páginas
+- `assets/js/app.js`: traducciones, selector de idioma y contacto
+- `assets/images/hero-laptop.jpeg`: imagen principal del hero
 
 ## Publicação no GitHub Pages
 
@@ -21,20 +23,25 @@ Landing page estática, em português do Brasil, pronta para publicar no GitHub 
 
 ## Observações
 
-- O site não usa preços nem valores de serviço.
-- A navegação tem animação de saída e entrada entre as páginas.
-- A caricatura pixel é gerada no navegador e se adapta ao layout.
+- El selector permite portugués, inglés, español, chino, ruso, alemán, francés, italiano y árabe libanés.
+- La navegación tiene animación de salida y entrada entre páginas.
+- El idioma seleccionado se conserva con `localStorage`.
 
 ## Estrutura
 
 ```text
 /
-├── contato.html
-├── eufacoorcamento.html
+├── assets/
+│   ├── css/
+│   │   ├── components.css
+│   │   └── main.css
+│   ├── images/
+│   │   └── hero-laptop.jpeg
+│   └── js/
+│       ├── app.js
+│       └── router.js
+├── contact.html
 ├── index.html
-├── procuroemprego.html
-├── router.js
-├── script.js
-├── style-1.css
-└── style.css
+├── services.html
+└── work.html
 ```
